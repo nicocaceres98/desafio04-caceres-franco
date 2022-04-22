@@ -79,3 +79,8 @@ nav ul li a:hover {
   color: #fff;
   transform: translateY(-7px);
 }
+
+/* Aplicamos animacion de escala de grises a las fotos de "Nuestros Sponsors"*/
+.imagen:hover {
+  filter: grayscale(100%);
+}

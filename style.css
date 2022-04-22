@@ -1,0 +1,52 @@
+* {
+  padding: 1px;
+  margin: 1px 2px 2px 3px;
+}
+
+body {
+  background-color: #000000;
+}
+
+h1 {
+  color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  color: aliceblue;
+}
+
+li {
+  display: inline-block;
+}
+
+div {
+  text-align: center;
+}
+
+.box-1 {
+  text-align: center;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+  font-size: x-large;
+  background-color: #0099cc;
+}
+
+.box-2 {
+  text-align: center;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+}
+.box-3 {
+  text-align: center;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+}
+.box-4 {
+  text-align: center;
+  color: #fff;
+  font-family: "Bebas Neue", cursive;
+}

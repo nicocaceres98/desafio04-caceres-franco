@@ -34,8 +34,62 @@
     </div>
 
     <div class="box-3">
+      <h1>Contacto</h1>
       <Main>
-        <form>
+        <!-- ========= Boostrap formulario========= -->
+        <div class="row">
+          <div class="col-4">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Email</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="ejemplo@">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Domicilio</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Direccion">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Selecciona tu pais</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Selecciona..</option>
+                  <option>Argentina</option>
+                  <option>Chile</option>
+                  <option>Uruguay</option>
+                  <option>Peru</option>
+                  <option>Paraguay</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <textarea name="test" cols="30" rows="10" placeholder="Escriba aqui su mensaje"></textarea>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    ¿Quieres recibir notifiaciones de ofertas?
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- <form>
           <fieldset>
             <legend>Formulario de contacto</legend>
             <label for="nombre_apellido">Nombre:</label>
@@ -64,7 +118,7 @@
             <input type="submit" value="Enviar formulario">
             <input type="reset" value="Limpiar formulario">
           </fieldset>
-        </form>
+        </form> -->
       </Main>
     </div>
 
